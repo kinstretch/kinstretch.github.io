@@ -1,0 +1,2 @@
+import{_ as h}from"./_curry2.js";import{_ as o}from"./_isString.js";const c=Number.isInteger||function(r){return r<<0===r};var p=h(function(r,n){var t=r<0?n.length+r:r;return o(n)?n.charAt(t):n[t]});const s=p;var v=h(function(r,n){return r.map(function(t){for(var a=n,i=0,e;i<t.length;){if(a==null)return;e=t[i],a=c(e)?s(e,a):a[e],i+=1}return a})});const g=v;var m=h(function(r,n){return g([r],n)[0]});const l=m;export{l as p};
+//# sourceMappingURL=path.js.map

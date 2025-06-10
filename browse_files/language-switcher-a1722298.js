@@ -1,0 +1,2 @@
+import{a as o,j as r}from"../styled-components.browser.esm.js";import{L as a}from"../LanguageSwitcher.js";import"../index.js";import"../intl.helpers.js";import"../constructFrom.js";import"../deviceSizes.js";import"../provider.js";import"../message.js";const t=document.getElementById("language-switcher-react-app"),e=t&&t.dataset.supportedLocales?JSON.parse(t.dataset.supportedLocales):[];e.length&&o.render(r.jsx(a,{supportedLocales:e}),t);
+//# sourceMappingURL=language-switcher.js.map
